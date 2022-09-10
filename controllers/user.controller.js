@@ -1,5 +1,5 @@
-const sequelize = require("../models/connection");
-const User = require("../models/user.model");
+const sequelize = require('../models/connection');
+const User = require('../models/user.model');
 
 exports.nearByUsersExample1 = async (req, res) => {
     const latitude = 28.626137;
